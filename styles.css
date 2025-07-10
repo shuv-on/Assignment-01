@@ -52,3 +52,29 @@ nav button{
     margin-top: 85px;
     margin-bottom: 100px;
 }
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 159px;
+    gap: 50px;
+}
+.action-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.act-color{
+    color: #252432;
+
+}
+.lite-color{
+    color: #444444;
+    
+}
+.action-img img {
+    width: 403px;
+    height: 328px;
+    border-radius: 15px;
+}
