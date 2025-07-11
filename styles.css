@@ -150,7 +150,7 @@ nav button{
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
-    background-color: #f3f2f2;
+    background-color: #fff;
 }
 .stars {
     align-self: flex-start;
@@ -191,4 +191,42 @@ nav button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+main{
+    background-color: #F5F8FF;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 100px;
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #fff;
+}
+.ready-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 10px 40px;
+}
+.ready-details h1 {
+    font-size: 50px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.ready-details button{
+    margin: 10px 0 10px 0;
+}
+.wc-big img{
+    width: 640px;
+    height: 280px;
+    border-radius: 5px;  
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
