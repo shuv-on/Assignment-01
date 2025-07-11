@@ -3,6 +3,8 @@
     margin: 0;
     
 }
+body {
+    background-color: #F5F8FF;
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -20,6 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    margin-bottom: 0px;
 }
 nav {
     display: flex;
@@ -44,10 +47,18 @@ nav button{
     padding: 12px 36px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.button-primary:hover {
+    background-color: rgb(180, 180, 6);
+    transform: translate(-3px) scale(1.05);
+    box-shadow:0 8px 24px rgba(0,0,0, 0.15);
 }
 .focused {
     text-align: center;
     margin: 80px 200px;
+    margin-bottom: 0;
 }
 .about {
     color: #252432;
@@ -92,6 +103,7 @@ nav button{
     width: 403px;
     height: 328px;
     border-radius: 15px;
+    margin-top: 50px;
 }
 .producive-user{
     display: flex;
@@ -198,6 +210,7 @@ nav button{
     border-radius: 50%;
 }
 main{
+    margin-top: 0px;
     background-color: #F5F8FF;
 }
 .ready{
@@ -206,6 +219,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: 80px 100px;
+    margin-top: 20px;
     border-radius: 8px;
     padding: 40px;
     background-color: #fff;
