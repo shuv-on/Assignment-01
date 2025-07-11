@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 .raleway {
   font-family: "Raleway", sans-serif;
@@ -122,4 +123,72 @@ nav button{
 .act-user p {
     font-size: 20px;
     justify-content: center;
+}
+.user-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 100px;
+}
+.user-feedback h2{
+    font-size: 42px;
+    color: #252432;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 40px;
+    gap: 5px;
+}
+.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}
+.stars {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+.stars img {
+    display: inline-block;
+}
+
+.card-one-details h6{
+
+    font-size: 20px;
+    color: #252432;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.card-one-details p{
+    font-size: 10px;
+    color: #252432;
+}
+.name p{
+    opacity: 0.4;
+    font-size: 12px;
+}
+.card-user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
