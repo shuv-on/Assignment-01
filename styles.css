@@ -56,7 +56,7 @@ nav button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 159px;
+    margin: 40px 120px;
     gap: 50px;
 }
 .action-details {
@@ -65,16 +65,61 @@ nav button{
     gap: 20px;
     padding: 30px;
 }
+.action-details p{
+    font-size: 24px;
+
+}
+.action-details h4{
+    font-size: 42px;
+
+}
 .act-color{
     color: #252432;
 
 }
 .lite-color{
-    color: #444444;
+    color: #252432;
+    opacity: 0.5;
     
 }
 .action-img img {
     width: 403px;
     height: 328px;
     border-radius: 15px;
+}
+.producive-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 100px;
+    padding: 20px 0px;
+    background-color: #E5E7FF;
+    border-radius: 5px;
+}
+.producive-user h3{
+    font-size: 38px;
+    padding: 20px;
+}
+.mat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 60px;
+    padding: 15px;
+}
+.act-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.act-user h2{
+    color: #4E47FF;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.act-user p {
+    font-size: 20px;
+    justify-content: center;
 }
