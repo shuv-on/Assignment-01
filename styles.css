@@ -5,6 +5,7 @@
 }
 body {
     background-color: #F5F8FF;
+}
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -113,7 +114,7 @@ nav button{
     margin: 100px 100px;
     padding: 20px 0px;
     background-color: #E5E7FF;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .producive-user h3{
     font-size: 38px;
@@ -166,7 +167,7 @@ nav button{
     justify-content: center;
     margin: 20px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
 }
 .stars {
@@ -220,7 +221,7 @@ main{
     justify-content: center;
     margin: 80px 100px;
     margin-top: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 40px;
     background-color: #fff;
 }
@@ -243,7 +244,7 @@ main{
 .wc-big img{
     width: 640px;
     height: 280px;
-    border-radius: 5px;  
+    border-radius: 8px;  
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 0;
@@ -274,7 +275,7 @@ main{
 }
 .take-input input, .take-input textarea{
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid #e0e0e0;
     font-size: 18px;
 }
@@ -317,5 +318,4 @@ main{
     margin: 0;
     margin-bottom: 80px;
     color: #8987A1;
-    
 }
